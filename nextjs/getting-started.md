@@ -68,8 +68,6 @@ export function Providers({ children }: { children: React.ReactNode }) {
   return (
     <UserstackProvider
       projectKey={process.env.NEXT_PUBLIC_USERSTACK_PROJECT_KEY}
-      routerType="app"
-      debugMode={true}
     >
       {children}
     </UserstackProvider>
